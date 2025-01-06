@@ -1,0 +1,122 @@
+body{
+    background-color: #AFDBF5;
+  }
+  
+  h1 {
+      color: #ffff;
+      text-align: center;
+      font-family: "Proxima Nova Medium", sans-serif;
+      font-size: 50px;
+    }
+  
+  h3 {
+    font-family: "Proxima Nova Medium", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffff;
+  }
+  
+  p {
+    font-family: "Proxima Nova Medium", sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffff;
+  }
+  
+  a {
+    color: #ADD8E6;
+  }
+  
+  ul.a {
+    list-style-type: dark circle;
+    font-family: "Proxima Nova Medium", sans-serif;
+    font-size: 13px;
+    color: #ffff;
+    margin-left: 10px;
+    margin-right: 1px;
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  
+  .container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+  }
+  
+  header, footer {
+    background-color: #1F305E;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffff;
+    font-family: "Proxima Nova Medium", sans-serif;
+    text-align: center;
+  }
+  
+  main {
+    display: flow;
+    flex-direction: row;
+  }
+  
+  .main-content {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .main-content > div {
+    background-color: #1F305E;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+    border-radius: 15px;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    width: 80%; 
+    padding: 25px 
+  }
+  
+  .gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px; 
+  }
+  
+  .gallery:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+  
+  .horizontal-section {
+    background-color: #1F305E;
+    border-radius: 10px;
+    margin-bottom: 2%;
+  }
