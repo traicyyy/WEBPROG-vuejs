@@ -3,11 +3,11 @@
       display: inline-block;
       padding: 0 20px;
     }
-    #app3 label, #app3 li {
+    #app label, #app li {
       padding: 5px;
       border-radius: 5px;
     }
-    #app3 label:hover, #app3 li:hover {
+    #app label:hover, #app li:hover {
       cursor: pointer;
       background-color: lightgray;
     }
