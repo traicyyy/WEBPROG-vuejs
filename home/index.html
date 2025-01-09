@@ -11,24 +11,6 @@
     <div class="container">
         <header> 
           <h1>Kon'nichiwa, Tracie here! </h1>
-          <div id="app">
-            {{ message }} <br>
-            {{'Random number: ' + Math.ceil(Math.random()*6) }}
-
-            <div v-bind:class="vueClass">This element is bound to the "pinkBG" class.</div>
-        
-          </div>
-        <div id="app">
-  <div>
-    <figure v-for="x in manyFoods">
-      <img v-bind:src="x.url">
-      <figcaption>{{ x.name }}</figcaption>
-    </figure>
-  </div>
-  
-
-</div>
-          
         </header>
         <main>
           <section class="main-content">
@@ -118,6 +100,22 @@
                   </div>
                 </div>
         </section>
+      
+<div id="app">
+  {{ message }} <br>
+  {{'Random number: ' + Math.ceil(Math.random()*6) }}
+
+  <div v-bind:class="vueClass">This element is bound to the "pinkBG" class.</div>
+</div>
+  
+<div id="app2">
+  <div>
+    <figure v-for="x in manyFoods">
+      <img v-bind:src="x.url">
+      <figcaption>{{ x.name }}</figcaption>
+    </figure>
+  </div>
+      
         <footer>
           © 2024 Tracie Tomon. Asia Pacific College. Contact Me @ <a href="https://www.linkedin.com/in/tracie-tomon-454836287/">LinkedIn</a>
         </footer>
