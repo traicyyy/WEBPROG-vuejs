@@ -1,3 +1,4 @@
+
 #app3 {
   border: dashed black 1px;
   display: inline-block;
@@ -17,6 +18,7 @@ ul {
 li {
   margin: 2px;
   background-color: rgb(211, 254, 211);
+  color: black;
 }
 .impClass {
   background-color: rgb(255, 202, 202);
@@ -24,4 +26,8 @@ li {
 #ulFound li {
   text-decoration: line-through;
   background-color: rgb(230,230,230);
+  color: black;
+}
+.item-name, .item-number {
+  color: initial;
 }
