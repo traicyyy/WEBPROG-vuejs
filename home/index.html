@@ -121,15 +121,15 @@
   
  <div id="app3">
   <form v-on:submit.prevent="addItem">
-    <p>
+    <p id="blackText">
       What do you need? <br>
       <input type="text" required placeholder="item name.." v-model="itemName">
     </p>
-    <p>
+    <p id="blackText">
       How many? <br>
       <input type="number" placeholder="number of items.." v-model="itemNumber">
     </p>
-    <p>
+    <p id="blackText">
       Important?
       <label>
         <input type="checkbox" v-model="itemImportant">
@@ -142,7 +142,7 @@
   <hr>
 
   <div>
-    <p><strong>Shopping list:</strong></p>
+    <p id="blackText"><strong>Shopping list:</strong></p>
     <ul id="ulToFind">
       <li 
         v-for="item in shoppingList" 

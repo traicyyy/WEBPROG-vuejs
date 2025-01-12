@@ -31,3 +31,7 @@ li {
 .item-name, .item-number {
   color: initial;
 }
+
+#blackText { 
+  color: black; 
+}
