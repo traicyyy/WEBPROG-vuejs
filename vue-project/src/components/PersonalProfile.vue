@@ -116,23 +116,10 @@
     font-family: "Proxima Nova Medium", sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #001f3f, #0074D9, #7FDBFF, #39CCCC);
-    animation: gradientAnimation 10s ease infinite;
+    background: linear-gradient(135deg, #284057, #0074D9, #7FDBFF, #39CCCC);
     color: #ffffff;
     line-height: 1.6;
   }
-
-  @keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
- }
   
   a {
     text-decoration: none;
