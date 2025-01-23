@@ -23,4 +23,5 @@
         margin: 10px;
         padding: 10px;
         background-color: yellow;
+        color: #000000;
     }</style>

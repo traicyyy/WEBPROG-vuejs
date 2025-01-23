@@ -15,9 +15,8 @@
   
     <main>
       <section id="home" class="section">
-        <h1>Kon'nichiwa, my name is Tracie</h1>
-        <p>I am from BSIT-MI231</p>
-        <p>Currently pursuing a Bachelor of Science in Information Technology at Asia Pacific College, Makati City, Philippines.</p>
+        <h1>Kon'nichiwa, my name is Tracie!</h1>
+        <p>I am from BSIT-MI231, currently pursuing a Bachelor of Science in Information Technology at Asia Pacific College, Makati City, Philippines.</p>
       </section>
   
       <section id="about" class="section">
@@ -122,6 +121,7 @@
   ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
   }
   
   h1, h2, h3 {
@@ -149,7 +149,7 @@
     font-size: 16px;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #3A5BA0;
+    background-color: #7DF9FF;
     transition: background-color 0.3s ease;
   }
   
@@ -169,6 +169,15 @@
     text-align: center;
     color: #FFD700;
   }
+
+  .section h3 {
+    text-align: center;
+    color: #00FFFF;
+  }
+
+  .section p {
+    text-align: center;
+  }
   
   footer {
       text-align: center;
@@ -178,4 +187,32 @@
       bottom: 0;
       width: 100%;
   }
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
 </style>

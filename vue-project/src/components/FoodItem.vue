@@ -24,6 +24,7 @@
         margin: 10px;
         padding: 10px;
         background-color: orange;
+        color: #000000;
     }
 
 </style>
