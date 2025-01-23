@@ -96,6 +96,9 @@
           <div class="gallery">
             <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/473265681_1151572549823226_6387959509668531187_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGRjZdUNBvXZmX-3FIbCIWwrDgmEjv4PX2sOCYSO_g9fXkX39jSYdwgKD6U9FmR6N8JuhVkEdOBtjJRKxBsejaP&_nc_ohc=Kuje_LIluv0Q7kNvgHG8QO4&_nc_zt=23&_nc_ht=scontent.fmnl25-4.fna&oh=03_Q7cD1gGJGtP2WWCLT-DRP1EoiKYngAZaEVUkyS5wDmWOje0opw&oe=67B9A15B" alt="Photo 4">
           </div>
+          <div class="gallery">
+            <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/473736550_607422458543163_4456432528710873462_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeG42xdu1-UfnqqDqLiMwoENn7YdP0e-zh6fth0_R77OHhH2fOVYoTcbonP8MCWIQ31Pc-J8O56gPgte-H6Q4LmU&_nc_ohc=qj7kUAgAOssQ7kNvgEJIvGR&_nc_zt=23&_nc_ht=scontent.fmnl25-1.fna&oh=03_Q7cD1gE0glKXBcqOw9qLkVdPVGAUvXy7wRJn82JLUobn2dEe9w&oe=67B9995A" alt="Photo 5">
+          </div>
         </div>
       </section>
     </main>
@@ -113,10 +116,23 @@
     font-family: "Proxima Nova Medium", sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #156bbf, #498fa6, #66acd8, #ADD8E6);    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, orange, #FFBF00, #8B4513);
+    animation: gradientAnimation 10s ease infinite;
     color: #ffffff;
     line-height: 1.6;
   }
+
+  @keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+ }
   
   a {
     text-decoration: none;
@@ -189,7 +205,7 @@
 
   .section h4 {
     text-align: center;
-    color: #7DF9FF;
+    color: #FFA500;
   }
 
   .section p {
