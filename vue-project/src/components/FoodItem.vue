@@ -1,22 +1,23 @@
-<template class = "orange">
-  <div>
-    <h2>{{ name }}</h2>
-    <p>{{ message }}</p>
-  </div>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      name: 'Oranges',
-      message: 'I like oranges'
+<template>
+    <div class="orange">
+      <h2>{{ name }}</h2>
+      <p>{{ message }}</p>
+    </div>
+  </template>
+  
+  <script>
+  export default {
+    data() {
+      return {
+        name: 'Oranges',
+        message: 'I like oranges'
+      }
     }
-  }
-};
-</script>
+  };
+  </script>
+  
+  <style>
 
-<style>
 .orange {
         border: dashed black 1px;
         display: inline-block;
@@ -24,4 +25,5 @@ export default {
         padding: 10px;
         background-color: orange;
     }
+
 </style>
