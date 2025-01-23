@@ -1,4 +1,4 @@
-<template>
+<template class = "banana">
   <div>
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style>
-#app > div {
+.banana {
         border: dashed black 1px;
         display: inline-block;
         margin: 10px;

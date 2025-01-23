@@ -1,4 +1,4 @@
-<template>
+<template class = "orange">
   <div>
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style>
-#app > div {
+.orange {
         border: dashed black 1px;
         display: inline-block;
         margin: 10px;
