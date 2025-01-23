@@ -79,13 +79,13 @@
         <h2>Photo Gallery</h2>
         <div class="gallery-container">
           <div class="gallery">
-            <img src="photo1.jpg" alt="Gallery Photo 1">
+            <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/464678236_1621760615140348_8138346788410055524_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEXzV8t0A7Bx352Q1FITH_wEbVjyoip8TQRtWPKiKnxNFAM8ANCPDHfhup7mPbFZFBJ_dD-o_Grfrvnjxpb6gRq&_nc_ohc=EHrbpeFFF6cQ7kNvgENcVb6&_nc_zt=23&_nc_ht=scontent.fmnl25-3.fna&oh=03_Q7cD1gE2qwi03TDiZtCBf0slz2LWMQ5NBmgAd5sY3gi__2q7mg&oe=67B99446" alt="Gallery Photo 1">
           </div>
           <div class="gallery">
-            <img src="photo2.jpg" alt="Gallery Photo 2">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462566935_919390329697512_8093583739306387370_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeG_8gBmNy9X-VW6WAIEMpLrJbe42oQbDuclt7jahBsO5_jwvhjzdnLHrGOSignT879PtMHT2sJdrjEyfY03lRZ_&_nc_ohc=b13tbEZbz2cQ7kNvgEaf8LM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gHgKuKNvWJArdYgoFTPa1AMp6jGJpLKNyUAsLyV53Pdcg&oe=67B98FB2" alt="Gallery Photo 2">
           </div>
           <div class="gallery">
-            <img src="photo3.jpg" alt="Gallery Photo 3">
+            <img src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.15752-9/474061739_618804800598767_4472319851737307244_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHaf01KqJ98HKJvRQ6_SDKOx61LCjXMAybHrUsKNcwDJuH0vcIeaYREB1z__KFjSpVZNflkTofLZeCFxTWiQtO0&_nc_ohc=6Npz-I_WugkQ7kNvgHuUfze&_nc_zt=23&_nc_ht=scontent.fmnl25-5.fna&oh=03_Q7cD1gFr77vhPpW_8_EFDTk7jmSJwJ7Wzto2Qpcd-X5qs9Op3Q&oe=67B99E30" alt="Gallery Photo 3">
           </div>
         </div>
       </section>
@@ -94,12 +94,12 @@
     <footer>
       <p>© 2025 Tracie Cañas Tomon. All rights reserved.</p>
     </footer>
-  </template>
+</template>
   
-  <script>
-  </script>
+<script>
+</script>
   
-  <style>
+<style>
   body {
     font-family: "Proxima Nova Medium", sans-serif;
     margin: 0;
@@ -178,4 +178,4 @@
       bottom: 0;
       width: 100%;
   }
-  </style>
+</style>
