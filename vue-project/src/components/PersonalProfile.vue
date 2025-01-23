@@ -168,7 +168,8 @@
   }
   
   .navbar a:hover {
-    background-color: #5C7BBC;
+    background-color: rgb(56 150 202 / 20%);
+    transform: scale(1.05);
   }
   
   .section {
@@ -192,7 +193,7 @@
 
   .section h4 {
     text-align: center;
-    color: #FFA500;
+    color: #D27D2D;
   }
 
   .section p {
