@@ -144,6 +144,7 @@
   header {
     padding: 20px;
     text-align: center;
+    background-color: rgb(255 255 255 / 80%);
   }
   
   .navbar {
@@ -186,8 +187,8 @@
 
   .section h3 {
     text-align: center;
-    color: #00FFFF;
-  }
+    color: #1F305E;
+  } 
 
   .section h4 {
     text-align: center;
@@ -204,7 +205,8 @@
       position: relative;
       bottom: 0;
       width: 100%;
-      color: #ffffff;
+      color: #000000;
+      background-color: rgb(255 255 255 / 80%);
   }
 
 .gallery-container {
