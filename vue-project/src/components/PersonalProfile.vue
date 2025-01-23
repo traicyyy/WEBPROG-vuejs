@@ -168,9 +168,9 @@
   }
   
   .navbar a:hover {
-    background-color: rgb(56 150 202 / 20%);
-    transform: scale(1.05);
-  }
+  background: linear-gradient(to bottom, #FFBF00, #FFD700, #FFA500);
+  transform: scale(1.05);
+}
   
   .section {
     margin: 20px auto;
