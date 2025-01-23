@@ -116,7 +116,7 @@
     font-family: "Proxima Nova Medium", sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, orange, #FFBF00, #8B4513);
+    background: linear-gradient(135deg, #001f3f, #0074D9, #7FDBFF, #39CCCC);
     animation: gradientAnimation 10s ease infinite;
     color: #ffffff;
     line-height: 1.6;
@@ -175,7 +175,7 @@
     font-size: 16px;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #CCCCFF;
+    background: linear-gradient(to bottom, orange, #FFBF00, #8B4513);
     transition: background-color 0.3s ease;
     color: #000000;
   }
