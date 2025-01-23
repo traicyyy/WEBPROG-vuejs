@@ -116,8 +116,8 @@
     font-family: "Proxima Nova Medium", sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #284057, #0074D9, #7FDBFF, #39CCCC);
-    color: #ffffff;
+    background: #CCCCFF
+    color: #000000;
     line-height: 1.6;
   }
   
@@ -174,7 +174,7 @@
   .section {
     margin: 20px auto;
     padding: 20px;
-    background-color: #1F305E;
+    background-color: rgb(255 255 255 / 80%); 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     max-width: 800px;
