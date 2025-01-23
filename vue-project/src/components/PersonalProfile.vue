@@ -116,7 +116,7 @@
     font-family: "Proxima Nova Medium", sans-serif;
     margin: 0;
     padding: 0;
-    background: #CCCCFF
+    background-color: #CCCCFF;
     color: #000000;
     line-height: 1.6;
   }
