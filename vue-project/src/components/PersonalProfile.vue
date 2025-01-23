@@ -116,7 +116,7 @@
     font-family: "Proxima Nova Medium", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #CCCCFF;
+    background-color: linear-gradient(135deg, #1E90FF, #00BFFF, #87CEFA, #ADD8E6);
     color: #000000;
     line-height: 1.6;
   }
@@ -182,7 +182,7 @@
   
   .section h1, .section h2 {
     text-align: center;
-    color: #FFD700;
+    color: #db841c;
   }
 
   .section h3 {
@@ -206,6 +206,7 @@
       position: relative;
       bottom: 0;
       width: 100%;
+      color: #ffffff;
   }
 
 .gallery-container {
