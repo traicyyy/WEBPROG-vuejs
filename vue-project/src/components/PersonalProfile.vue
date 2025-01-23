@@ -27,15 +27,22 @@
       <section id="education" class="section">
         <h2>Education & Achievements</h2>
         <h3>College</h3>
-        <p><strong>Asia Pacific College</strong><br>Bachelor of Science in Information Technology with specialization in Mobile and Internet Technology<br>August 2023 - Present<br>Dean's Lister AY 2023-2024<br>Class Representative (SoCIT Leads) 2023 - Present<br>Member of Microsoft Community (MSC) 2023 - Present</p>
-        <p><strong>Southern Leyte State University</strong><br>Bachelor of Secondary Education major in General Science<br>August 2019 - 2021</p>
+        <h4>Asia Pacific College</h4>
+        <p>Bachelor of Science in Information Technology with specialization in Mobile and Internet Technology<br>August 2023 - Present<br>Dean's Lister AY 2023-2024<br>Class Representative (SoCIT Leads) 2023 - Present<br>Member of Microsoft Community (MSC) 2023 - Present</p>
+
+        <h4>Southern Leyte State University</h4>
+        <p>Bachelor of Secondary Education major in General Science<br>August 2019 - 2021</p>
   
         <h3>Senior High School</h3>
-        <p><strong>Saint Thomas Aquinas College</strong><br>Academic Track: Accountancy, Business, and Management<br>June 2017 - March 2019<br>Associate Editor-in-Chief of The TORCH (School Publication)<br>ABM Achiever<br>Graduated with High Honors</p>
+        <h4>Saint Thomas Aquinas College</h4>
+        <p>Academic Track: Accountancy, Business, and Management<br>June 2017 - March 2019<br>Associate Editor-in-Chief of The TORCH (School Publication)<br>ABM Achiever<br>Graduated with High Honors</p>
   
         <h3>Junior High School</h3>
-        <p><strong>Libas National High School</strong><br>Grade 9 - 10<br>SY 2015 - 2017<br>SSC President (2016-2017)<br>Completed Junior High as Class Valedictorian</p>
-        <p><strong>Cesar C. Tan Memorial National High School</strong><br>Grade 7 - 8<br>SY 2013 - 2015<br>Consistent honor student</p>
+        <h4>Libas National High School</h4>
+        <p>Grade 9 - 10<br>SY 2015 - 2017<br>SSC President (2016-2017)<br>Completed Junior High as Class Valedictorian</p>
+
+        <h4>Cesar C. Tan Memorial National High School</h4>
+        <p>Grade 7 - 8<br>SY 2013 - 2015<br>Consistent honor student</p>
       </section>
   
       <section id="experience" class="section">
@@ -78,13 +85,16 @@
         <h2>Photo Gallery</h2>
         <div class="gallery-container">
           <div class="gallery">
-            <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/464678236_1621760615140348_8138346788410055524_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEXzV8t0A7Bx352Q1FITH_wEbVjyoip8TQRtWPKiKnxNFAM8ANCPDHfhup7mPbFZFBJ_dD-o_Grfrvnjxpb6gRq&_nc_ohc=EHrbpeFFF6cQ7kNvgENcVb6&_nc_zt=23&_nc_ht=scontent.fmnl25-3.fna&oh=03_Q7cD1gE2qwi03TDiZtCBf0slz2LWMQ5NBmgAd5sY3gi__2q7mg&oe=67B99446" alt="Gallery Photo 1">
+            <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/464678236_1621760615140348_8138346788410055524_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEXzV8t0A7Bx352Q1FITH_wEbVjyoip8TQRtWPKiKnxNFAM8ANCPDHfhup7mPbFZFBJ_dD-o_Grfrvnjxpb6gRq&_nc_ohc=EHrbpeFFF6cQ7kNvgENcVb6&_nc_zt=23&_nc_ht=scontent.fmnl25-3.fna&oh=03_Q7cD1gE2qwi03TDiZtCBf0slz2LWMQ5NBmgAd5sY3gi__2q7mg&oe=67B99446" alt="Photo 1">
           </div>
           <div class="gallery">
-            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462566935_919390329697512_8093583739306387370_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeG_8gBmNy9X-VW6WAIEMpLrJbe42oQbDuclt7jahBsO5_jwvhjzdnLHrGOSignT879PtMHT2sJdrjEyfY03lRZ_&_nc_ohc=b13tbEZbz2cQ7kNvgEaf8LM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gHgKuKNvWJArdYgoFTPa1AMp6jGJpLKNyUAsLyV53Pdcg&oe=67B98FB2" alt="Gallery Photo 2">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462566935_919390329697512_8093583739306387370_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeG_8gBmNy9X-VW6WAIEMpLrJbe42oQbDuclt7jahBsO5_jwvhjzdnLHrGOSignT879PtMHT2sJdrjEyfY03lRZ_&_nc_ohc=b13tbEZbz2cQ7kNvgEaf8LM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gHgKuKNvWJArdYgoFTPa1AMp6jGJpLKNyUAsLyV53Pdcg&oe=67B98FB2" alt="Photo 2">
           </div>
           <div class="gallery">
-            <img src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.15752-9/474061739_618804800598767_4472319851737307244_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHaf01KqJ98HKJvRQ6_SDKOx61LCjXMAybHrUsKNcwDJuH0vcIeaYREB1z__KFjSpVZNflkTofLZeCFxTWiQtO0&_nc_ohc=6Npz-I_WugkQ7kNvgHuUfze&_nc_zt=23&_nc_ht=scontent.fmnl25-5.fna&oh=03_Q7cD1gFr77vhPpW_8_EFDTk7jmSJwJ7Wzto2Qpcd-X5qs9Op3Q&oe=67B99E30" alt="Gallery Photo 3">
+            <img src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.15752-9/474061739_618804800598767_4472319851737307244_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHaf01KqJ98HKJvRQ6_SDKOx61LCjXMAybHrUsKNcwDJuH0vcIeaYREB1z__KFjSpVZNflkTofLZeCFxTWiQtO0&_nc_ohc=6Npz-I_WugkQ7kNvgHuUfze&_nc_zt=23&_nc_ht=scontent.fmnl25-5.fna&oh=03_Q7cD1gFr77vhPpW_8_EFDTk7jmSJwJ7Wzto2Qpcd-X5qs9Op3Q&oe=67B99E30" alt="Photo 3">
+          </div>
+          <div class="gallery">
+            <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/473265681_1151572549823226_6387959509668531187_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGRjZdUNBvXZmX-3FIbCIWwrDgmEjv4PX2sOCYSO_g9fXkX39jSYdwgKD6U9FmR6N8JuhVkEdOBtjJRKxBsejaP&_nc_ohc=Kuje_LIluv0Q7kNvgHG8QO4&_nc_zt=23&_nc_ht=scontent.fmnl25-4.fna&oh=03_Q7cD1gGJGtP2WWCLT-DRP1EoiKYngAZaEVUkyS5wDmWOje0opw&oe=67B9A15B" alt="Photo 4">
           </div>
         </div>
       </section>
@@ -103,7 +113,7 @@
     font-family: "Proxima Nova Medium", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #AFDBF5;
+    background: linear-gradient(135deg, #156bbf, #498fa6, #66acd8, #ADD8E6);    background-repeat: no-repeat;
     color: #ffffff;
     line-height: 1.6;
   }
@@ -149,8 +159,9 @@
     font-size: 16px;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #7DF9FF;
+    background-color: #CCCCFF;
     transition: background-color 0.3s ease;
+    color: #000000;
   }
   
   .navbar a:hover {
@@ -158,11 +169,12 @@
   }
   
   .section {
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     background-color: #1F305E;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
   }
   
   .section h1, .section h2 {
@@ -173,6 +185,11 @@
   .section h3 {
     text-align: center;
     color: #00FFFF;
+  }
+
+  .section h4 {
+    text-align: center;
+    color: #7DF9FF;
   }
 
   .section p {
