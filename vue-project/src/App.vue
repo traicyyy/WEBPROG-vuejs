@@ -1,9 +1,9 @@
 <template>
   <h1 style="color: white;">Food</h1>
-  <ul>
+  <ul style="color: white;">
       <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
-    </ul>
-   <br>
+  </ul>
+  <br>
   <personal-profile/> <br>
   <food-item/> 
   <food-item2/> 
