@@ -4,10 +4,10 @@
       <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
   </ul>
   <br>
-  <personal-profile/> <br>
   <food-item/> 
   <food-item2/> 
-  <food-item/> 
+  <food-item/> <br>
+  <personal-profile/> <br>
 </template>
 
 
