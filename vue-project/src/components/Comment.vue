@@ -33,13 +33,13 @@ onMounted(() => {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     background-color: #fffc;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px #0000001a;
-    width: 50%;
-    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto
 }
 
 .comments-title {
