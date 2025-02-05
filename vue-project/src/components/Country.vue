@@ -28,26 +28,25 @@ onMounted(() => {
 
 <style scoped>
 .countries-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  background-color: rgb(255 255 255 / 80%);
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  width: 50%;
-  max-width: 300px;
-  margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #0000001a;
+    width: 50%;
+    max-width: 300px;
+    margin: 20px;
 }
 
 .countries-title {
-  color: #db841c;
-  text-align: center;
-  font-family: "Proxima Nova Medium", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
+    color: #000000;
+    text-align: center;
+    font-family: "Proxima Nova Medium",sans-serif;
+    text-transform: uppercase;
+    font-weight: bold
 }
 
 .countries-list {

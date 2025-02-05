@@ -181,21 +181,22 @@
     max-width: 800px;
   }
   
-  .section h1, .section h2 {
+  .section h1,.section h2 {
     text-align: center;
-    color: #db841c;
-    font-weight: bold;
-  }
+    color: #000000;
+    text-transform: uppercase
+}
 
-  .section h3 {
+.section h3 {
     text-align: center;
-    color: #1F305E;
-  } 
+    color: #1f305e;
+    text-transform: uppercase
+}
 
-  .section h4 {
+.section h4 {
     text-align: center;
-    color: #D27D2D;
-  }
+    color: #523add
+}
 
   .section p {
     text-align: center;

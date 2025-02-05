@@ -43,11 +43,10 @@ onMounted(() => {
 }
 
 .comments-title {
-  color: white;
-  text-align: center;
-  color: #db841c;
-  font-family: "Proxima Nova Medium", sans-serif;
-  font-weight: bold;
+    text-align: center;
+    color: #000000;
+    font-family: "Proxima Nova Medium",sans-serif;
+    font-weight: bold
 }
 
 .comments-list {
