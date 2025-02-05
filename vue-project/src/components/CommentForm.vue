@@ -59,7 +59,7 @@ async function submitComment() {
     background-color: #fffc;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px #0000001a
+    box-shadow: 0 4px 6px #0000001a;
     width: 100%;
     max-width: 450px;
     margin: 20px auto;
