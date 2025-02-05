@@ -1,4 +1,5 @@
 <template>
+  <h1 class="food-title">Food</h1>
   <div class="food-item orange">
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
@@ -23,7 +24,7 @@ export default {
   margin: 15px;
   padding: 15px;
   background-color: #FFA500;
-  color: #4B4B4B;
+  color: #000000;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
