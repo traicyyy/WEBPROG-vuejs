@@ -184,6 +184,7 @@
   .section h1, .section h2 {
     text-align: center;
     color: #db841c;
+    font-weight: bold;
   }
 
   .section h3 {

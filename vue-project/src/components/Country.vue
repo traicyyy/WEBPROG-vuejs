@@ -37,8 +37,9 @@ onMounted(() => {
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 500px;
+  width: 50%;
+  max-width: 300px;
+  margin: 20px auto;
 }
 
 .countries-title {
@@ -46,20 +47,22 @@ onMounted(() => {
   text-align: center;
   font-family: "Proxima Nova Medium", sans-serif;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .countries-list {
-  list-style: none;
-  padding: 0;
-  width: 100%;
+    list-style: none;
+    width: 70%;
+    margin: 20px auto;
+    justify-content: center;
 }
 
 .country-item {
-  background: #333;
-  color: white;
-  padding: 10px;
-  margin: 5px 0;
-  border-radius: 5px;
-  text-align: center;
+    background: #f5c284;
+    color: #0b0505;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center
 }
 </style>

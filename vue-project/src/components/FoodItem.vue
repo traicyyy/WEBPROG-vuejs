@@ -36,5 +36,6 @@ export default {
   margin-top: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-weight: bold;
 }
 </style>
