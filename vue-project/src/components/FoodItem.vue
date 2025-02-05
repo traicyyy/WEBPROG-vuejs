@@ -16,7 +16,7 @@
   };
   </script>
   
-  <style>
+<style>
 
 .orange {
         border: dashed black 1px;
