@@ -66,6 +66,11 @@ async function submitComment() {
 .comment-form {
   width: 100%;
   max-width: 400px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Proxima Nova Medium", sans-serif;
 }
 
 .form-group {
