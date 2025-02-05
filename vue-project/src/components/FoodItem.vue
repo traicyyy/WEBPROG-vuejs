@@ -1,5 +1,4 @@
 <template>
-  <h1 class="food-title">Food</h1>
   <div class="food-item orange">
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
@@ -27,16 +26,5 @@ export default {
   color: #000000;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.food-title {
-  font-family: "Proxima Nova Medium", sans-serif;
-  font-size: 36px;
-  text-align: center;
-  color: #db841c;
-  margin-top: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: bold;
 }
 </style>
