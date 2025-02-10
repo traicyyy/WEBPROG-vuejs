@@ -139,20 +139,31 @@ h2 {
     text-align: left;
     color: #ffffff;
     text-transform: uppercase;
+    padding: 20px;
 }
 
 h3 {
     text-align: left;
     color: #ffffff;
     text-transform: uppercase;
+    margin: 20px;
 }
 
 ul {
-    color: #ffcc00;
-    text-align: left;
-    padding: 20px;
-    margin: 10px
+  list-style: disc !important;
+  padding-left: 20px;
+  color: #ffcc00;
+  text-align: left;
+  padding: 20px;
+  margin: 10px
 }
+
+li::marker {
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  padding: 20px;
+}
+
 
 
 </style>
