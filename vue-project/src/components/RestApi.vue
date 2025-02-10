@@ -133,3 +133,26 @@ import axios from 'axios';
 //  },
 //};
 </script>
+
+<style scoped>
+h2 {
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+ul {
+    color: #ffcc00;
+    text-align: left;
+    padding: 20px;
+    margin: 10px
+}
+
+
+</style>
