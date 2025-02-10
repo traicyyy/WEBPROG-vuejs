@@ -18,6 +18,7 @@ export default {
 
 <style scoped>
 .food-item.banana {
+  font-family: "Proxima Nova Medium", sans-serif;
   border: 2px solid #FFD700;
   display: inline-block;
   margin: 15px;

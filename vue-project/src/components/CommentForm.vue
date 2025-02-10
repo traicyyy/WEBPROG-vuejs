@@ -72,7 +72,7 @@ async function submitComment() {
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px #0000001a;
-    font-family: Proxima Nova Medium,sans-serif
+    font-family: "Proxima Nova Medium", sans-serif;
 }
 
 .form-group {

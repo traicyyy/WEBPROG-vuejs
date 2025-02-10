@@ -54,6 +54,7 @@ onMounted(() => {
     width: 70%;
     margin: 20px auto;
     justify-content: center;
+    font-family: "Proxima Nova Medium", sans-serif;
 }
 
 .country-item {

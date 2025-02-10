@@ -56,6 +56,7 @@ onMounted(() => {
 }
 
 .comment-item {
+  font-family: "Proxima Nova Medium", sans-serif;
   background: #333;
   color: white;
   padding: 10px;
@@ -66,9 +67,11 @@ onMounted(() => {
 }
 
 .comment-name {
+  font-family: "Proxima Nova Medium", sans-serif;
   font-weight: bold;
   margin-right: 8px;
   color: #ffcc00;
+  
 }
 
 .comment-text {

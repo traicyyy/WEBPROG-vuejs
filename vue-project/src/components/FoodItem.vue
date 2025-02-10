@@ -18,6 +18,7 @@ export default {
 
 <style scoped>
 .food-item.orange {
+  font-family: "Proxima Nova Medium", sans-serif;
   border: 2px solid #8B4513;
   display: inline-block;
   margin: 15px;

@@ -21,7 +21,7 @@
       <button type="submit">Add Post</button>
     </form>
 
-    <div v-if="editingPost">
+    <div v-if="editingPost" class="edit-post-container">
       <h3>Edit Post</h3>
       <form @submit.prevent="updatePost">
         <input type="text" v-model="editPostData.title" placeholder="Title" required><br>
@@ -135,35 +135,97 @@ import axios from 'axios';
 </script>
 
 <style scoped>
+body {
+  font-family: "Proxima Nova Medium", sans-serif;
+  color: #111;
+}
+
+div {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fffc;
+  border: 2px black;
+  border-radius: 10px;
+}
+
 h2 {
-    text-align: left;
-    color: #ffffff;
-    text-transform: uppercase;
-    padding: 20px;
+  font-family: "Proxima Nova Medium", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+  margin-bottom: 6px;
 }
 
 h3 {
-    text-align: left;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin: 20px;
+  font-family: "Proxima Nova Medium", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #111;
+  text-align: center;
+  margin-bottom: 6px;
 }
 
 ul {
   list-style: disc !important;
   padding-left: 20px;
-  color: #ffcc00;
+  color: #000000;
   text-align: left;
   padding: 20px;
-  margin: 10px
+  margin: 10px;
 }
 
 li::marker {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 1.2em;
   padding: 20px;
 }
 
+li { 
+  align-items: center;
+  gap: 5px;
+}
 
+li button {
+  margin-left: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 4px;
+  font-size: 14px;
+  border: 1px solid #111;
+  background-color: #f9f9f9;
+  margin-top: -10px;
+}
+
+button {
+  background-color: #e5d48f;
+  border: 1px solid black;
+  padding: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #d4c378;
+}
+
+.edit-post-container {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
 
 </style>
