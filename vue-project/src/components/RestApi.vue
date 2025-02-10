@@ -16,18 +16,18 @@
 
     <h3>Add New Post</h3>
     <form @submit.prevent="addPost">
-      <input type="text" v-model="newPost.title" placeholder="Title" required><br>
-      <textarea v-model="newPost.body" placeholder="Body" required></textarea><br>
+      <input type="text" v-model="newPost.title" placeholder="Title" required />
+      <textarea v-model="newPost.body" placeholder="Body" required></textarea>
       <button type="submit">Add Post</button>
     </form>
 
     <div v-if="editingPost" class="edit-post-container">
       <h3>Edit Post</h3>
       <form @submit.prevent="updatePost">
-        <input type="text" v-model="editPostData.title" placeholder="Title" required><br>
-        <textarea v-model="editPostData.body" placeholder="Body" required></textarea><br>
+        <input type="text" v-model="editPostData.title" placeholder="Title" required />
+        <textarea v-model="editPostData.body" placeholder="Body" required></textarea>
         <button type="submit">Update Post</button>
-        <button @click="cancelEdit">Cancel</button>
+        <button @click="cancelEdit">Cancel</button> 
       </form>
     </div>
   </div>
@@ -206,16 +206,21 @@ input, textarea {
   font-size: 14px;
   border: 1px solid #111;
   background-color: #f9f9f9;
-  margin-top: -10px;
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 60px; /* Set a minimum height */
 }
 
 button {
   background-color: #e5d48f;
   border: 1px solid black;
-  padding: 2px;
-  font-size: 14px;
+  padding: 4px 8px;
+  font-size: 12px;
   cursor: pointer;
   text-align: center;
+  margin-top: 4px;
 }
 
 button:hover {
